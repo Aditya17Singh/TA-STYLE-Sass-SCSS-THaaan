@@ -1,0 +1,145 @@
+.header{
+    background-color: $primary;
+    color: white;
+}
+.margin-left{
+    margin-left: 30px;
+}
+.header small{
+    margin-left: 7px;
+}
+.padding-header{
+    padding: 20px 80px;
+}
+.nav-menu a{
+    font-weight: 500;
+}
+.white-color a{
+    color: white;
+}
+.icons-margin li{
+    margin-left: 1rem;
+    color: black;
+}
+.strong{
+    background-color: #F2F2F2;
+    a{
+        color: black;
+        font-weight: 600;
+        font-size: 1rem;
+    }
+    .brand a{
+        font-size: 2rem;
+
+    }
+}
+.hero-section{
+    background: url(../assets/media/banner-1.jpg) no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 10rem;
+    h1{
+        font-weight: 900;
+        font-size: 3rem;
+        line-height: 1.2;
+    }
+    p{
+        font-weight: 500;
+        margin: 1rem 0;
+    }
+    
+}
+.services{
+    h2{
+        text-align: center;
+        font-weight: 900;
+    }
+    p{
+        text-align: center;
+        color: silver;
+    }
+    h3{
+        text-align: center;
+        font-weight: 600;
+    }
+}
+
+.services-card{
+    text-align: center;
+    margin-top: 2rem;
+    .card{
+        padding: 2rem 1rem;
+        border: 1px solid rgb(218, 218, 218);
+        border-radius: 5px;
+        a{
+            color: $primary;
+            font-size: 3.5rem;
+        }
+        p{
+            margin: 2rem 0;
+        }
+        
+    }
+}
+.solution{
+    background-color: #F8F9FA;
+    padding: 7rem;
+    text-align: center;
+    h4{
+        font-size: 2.5rem;
+        font-weight: 900;
+    }
+    p{
+        margin: 1.5rem 0;
+        color: silver;
+    }
+    
+}
+.consultant{
+    text-align: center;
+    a{
+        font-size: 3rem;
+        color: $primary;
+    }
+    h4{
+        font-size: 2rem;
+        font-weight: 900;
+    }
+    p{
+        margin: 1rem 0;
+        color: silver;
+
+    }
+}
+.clients{
+    h5{
+        text-align: center;
+        font-size: 2.5rem;
+        margin-bottom: 3rem;
+        font-weight: 900;
+    }
+    img{
+        filter: grayscale(100%);
+    }
+}
+
+footer{
+    background-color: #343A40;
+    p{
+        color: #757678;
+    }
+}
+.line-footer{
+    height: 2px;
+    width: 800px;
+    background-color: #E6F0FD;
+    margin-top: 80px;
+}
+.footer-heading{
+    color: #757678;
+    font-weight: 600;
+    font-size: 20px;
+}
+.line-height-footer{
+    color: #757678;
+}
