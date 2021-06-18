@@ -1,0 +1,32 @@
+.flex{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.align-item{
+    align-items: flex-start;
+}
+.justify-content{
+    justify-content: flex-start;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.flex-30{
+    flex: 0 1 30%;
+}
+.flex-25{
+    flex:  0 1 25%;
+}
+.flex-40{
+    flex: 0 1 40%;
+}
+.flex-50{
+    flex: 0 1 58%;
+}
+.flex-47{
+    flex: 0 1 45%;
+}
+.flex-70{
+    flex: 0 1 65%;
+}

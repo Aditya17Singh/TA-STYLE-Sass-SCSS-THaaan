@@ -1,0 +1,345 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: "Archivo", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+/* CONTAINER */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.width-full {
+  width: 100%;
+}
+
+/* BUTTON */
+.btn {
+  background-color: #DC3C45;
+  border: 0;
+  color: white;
+  padding: 0.8rem 1rem;
+  border-radius: 32px;
+}
+
+/* HEADER */
+.padding {
+  padding: 3rem;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.align-item {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.justify-content {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.flex-wrap {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.flex-30 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 30%;
+          flex: 0 1 30%;
+}
+
+.flex-25 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 25%;
+          flex: 0 1 25%;
+}
+
+.flex-40 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 40%;
+          flex: 0 1 40%;
+}
+
+.flex-50 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 58%;
+          flex: 0 1 58%;
+}
+
+.flex-47 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 45%;
+          flex: 0 1 45%;
+}
+
+.flex-70 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 65%;
+          flex: 0 1 65%;
+}
+
+.header {
+  background-color: #DC3C45;
+  color: white;
+}
+
+.margin-left {
+  margin-left: 30px;
+}
+
+.header small {
+  margin-left: 7px;
+}
+
+.padding-header {
+  padding: 20px 80px;
+}
+
+.nav-menu a {
+  font-weight: 500;
+}
+
+.white-color a {
+  color: white;
+}
+
+.icons-margin li {
+  margin-left: 1rem;
+  color: black;
+}
+
+.strong {
+  background-color: #F2F2F2;
+}
+
+.strong a {
+  color: black;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.strong .brand a {
+  font-size: 2rem;
+}
+
+.hero-section {
+  background: url(../assets/media/banner-1.jpg) no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  padding-top: 10rem;
+}
+
+.hero-section h1 {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+.hero-section p {
+  font-weight: 500;
+  margin: 1rem 0;
+}
+
+.services h2 {
+  text-align: center;
+  font-weight: 900;
+}
+
+.services p {
+  text-align: center;
+  color: silver;
+}
+
+.services h3 {
+  text-align: center;
+  font-weight: 600;
+}
+
+.services-card {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.services-card .card {
+  padding: 2rem 1rem;
+  border: 1px solid #dadada;
+  border-radius: 5px;
+}
+
+.services-card .card a {
+  color: #DC3C45;
+  font-size: 3.5rem;
+}
+
+.services-card .card p {
+  margin: 2rem 0;
+}
+
+.solution {
+  background-color: #F8F9FA;
+  padding: 7rem;
+  text-align: center;
+}
+
+.solution h4 {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.solution p {
+  margin: 1.5rem 0;
+  color: silver;
+}
+
+.consultant {
+  text-align: center;
+}
+
+.consultant a {
+  font-size: 3rem;
+  color: #DC3C45;
+}
+
+.consultant h4 {
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+.consultant p {
+  margin: 1rem 0;
+  color: silver;
+}
+
+.clients h5 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  font-weight: 900;
+}
+
+.clients img {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+footer {
+  background-color: #343A40;
+}
+
+footer p {
+  color: #757678;
+}
+
+.line-footer {
+  height: 2px;
+  width: 800px;
+  background-color: #E6F0FD;
+  margin-top: 80px;
+}
+
+.footer-heading {
+  color: #757678;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.line-height-footer {
+  color: #757678;
+}
+/*# sourceMappingURL=style.css.map */
